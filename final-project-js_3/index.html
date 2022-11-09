@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escalab Shop</title>
+  <meta name="author" content="Grupo Trabajo 3">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+  <nav>
+    <h1 class="titlePrimary">Escalab Shop</h1>
+    <button id="btn_carrito"> <i class="bi bi-cart"></i> </button>
+  </nav>
+  <div class="principalView">
+    <main>
+      <h2 id="title"></h2>
+      <div id="cargando"></div>
+      <div id="catalogo_contenedor" class="container"></div>
+      <div id="paginacion" class="contenedor-paginacion">
+        <span id="numpaginacion">1
+      </div>
+    </main>
+    <aside id="carro_aside" class="inactivo">
+      <h2> Carrito de compras </h2>
+      <div id="carro_contenedor">
+        <p> Lista de compras vacía </p>
+      </div>
+    </aside>
+  </div>
+
+  <!--Script-->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="./assets/js/app.js"> </script>
+
+</body>
+
+</html>
